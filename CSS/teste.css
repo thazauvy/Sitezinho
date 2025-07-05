@@ -1,0 +1,86 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+ 	background-color: #ffbe54;
+	color: aliceblue;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	cursor: url("../Mídia/Chihuahua.cur"), auto;
+}
+
+.Principal {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	padding-top: 10%;
+}
+
+.Sobre {
+	transform: scale(110%) translate(90px);
+	padding-bottom: 4%;
+}
+.Sobre:hover{
+	transform: scale(130%) translate(70px);
+}
+
+.BIO {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5%;
+}
+.muchotexto {
+	transform: scale(150%);
+}
+.muchotexto:hover{
+	transform: scale(200%);
+}
+.eu {
+	transform: scale(80%);
+	padding-left: 10%;
+}
+.makoto {
+	border-radius: 20%;
+}
+
+.arte {
+	transform: scale(90%) translate(80px);
+}
+.arte:hover{
+	transform: scale(110%) translate(60px);
+}
+.plateia {
+	transform: scale(200%) translate(-12px, -80px);
+}
+
+.Links {
+	transform: scale(60%);
+}
+.Links:hover{
+	transform: scale(80%);
+}
+
+.realms {
+	transform: scale(190%) translate(570px, 170px);
+}
+.yt:hover{
+	transform: scale(130%) translate(130px);
+}
+.mail:hover{
+	transform: scale(130%) translate(135px);
+}
+.zap:hover{
+	transform: scale(130%) translate(130px);
+}
+.dc:hover{
+	transform: scale(130%) translate(130px);
+}
+
+.voltar {
+	transform: scale(20%);
+	float: left;
+}
+.voltar:hover{
+	transform: scale(40%);
+}
